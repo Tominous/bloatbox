@@ -29,7 +29,7 @@ $domains = @(
     "a1621.g.akamai.net"
     "a1856.g2.akamai.net"
     "a1961.g.akamai.net"
-    #"a248.e.akamai.net"            # makes iTunes download button disappear (#43)
+    "a248.e.akamai.net"            # makes iTunes download button disappear (#43)
     "a978.i6g1.akamai.net"
     "a.ads1.msn.com"
     "a.ads2.msads.net"
@@ -104,9 +104,9 @@ $domains = @(
     "secure.flashtalking.com"
     "services.wes.df.telemetry.microsoft.com"
     "settings-sandbox.data.microsoft.com"
-    #"settings-win.data.microsoft.com"       # may cause issues with Windows Updates
+    "settings-win.data.microsoft.com"       # may cause issues with Windows Updates
     "sls.update.microsoft.com.akadns.net"
-    #"sls.update.microsoft.com.nsatc.net"    # may cause issues with Windows Updates
+    "sls.update.microsoft.com.nsatc.net"    # may cause issues with Windows Updates
     "sqm.df.telemetry.microsoft.com"
     "sqm.telemetry.microsoft.com"
     "sqm.telemetry.microsoft.com.nsatc.net"
@@ -138,9 +138,9 @@ $domains = @(
     "www.go.microsoft.akadns.net"
     "www.msftncsi.com"
     "client.wns.windows.com"
-    #"wdcp.microsoft.com"                       # may cause issues with Windows Defender Cloud-based protection
-    #"dns.msftncsi.com"                         # This causes Windows to think it doesn't have internet
-    #"storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
+    "wdcp.microsoft.com"                       # may cause issues with Windows Defender Cloud-based protection
+    "dns.msftncsi.com"                         # This causes Windows to think it doesn't have internet
+    "storeedgefd.dsx.mp.microsoft.com"         # breaks Windows Store
     "wdcpalt.microsoft.com"
     "settings-ssl.xboxlive.com"
     "settings-ssl.xboxlive.com-c.edgekey.net"
@@ -150,17 +150,17 @@ $domains = @(
     "insiderservice.trafficmanager.net"
     "e3843.g.akamaiedge.net"
     "flightingserviceweurope.cloudapp.net"
-    #"sls.update.microsoft.com"                 # may cause issues with Windows Updates
+    "sls.update.microsoft.com"                 # may cause issues with Windows Updates
     "static.ads-twitter.com"                    # may cause issues with Twitter login
     "www-google-analytics.l.google.com"
     "p.static.ads-twitter.com"                  # may cause issues with Twitter login
     "hubspot.net.edge.net"
     "e9483.a.akamaiedge.net"
 
-    #"www.google-analytics.com"
-    #"padgead2.googlesyndication.com"
-    #"mirror1.malwaredomains.com"
-    #"mirror.cedia.org.ec"
+    "www.google-analytics.com"
+    "padgead2.googlesyndication.com"
+    "mirror1.malwaredomains.com"
+    "mirror.cedia.org.ec"
     "stats.g.doubleclick.net"
     "stats.l.doubleclick.net"
     "adservice.google.de"
