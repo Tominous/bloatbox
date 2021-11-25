@@ -8,7 +8,7 @@ $services = @(
     "dmwappushservice"                         # WAP Push Message Routing Service (see known issues)
     "lfsvc"                                    # Geolocation Service
     "MapsBroker"                               # Downloaded Maps Manager
-    "NetTcpPortSharing"                        # Net.Tcp Port Sharing Service
+    #"NetTcpPortSharing"                        # Net.Tcp Port Sharing Service
     "RemoteAccess"                             # Routing and Remote Access
     "RemoteRegistry"                           # Remote Registry
     "SharedAccess"                             # Internet Connection Sharing (ICS)
@@ -21,7 +21,7 @@ $services = @(
     "XblAuthManager"                           # Xbox Live Auth Manager
     "XblGameSave"                              # Xbox Live Game Save Service
     "XboxNetApiSvc"                            # Xbox Live Networking Service
-    "ndu"                                      # Windows Network Data Usage Monitor
+    #"ndu"                                      # Windows Network Data Usage Monitor
     # Services which cannot be disabled
     #"WdNisSvc"
 )
