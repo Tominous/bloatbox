@@ -58,6 +58,6 @@ foreach ($regAlias in $regAliases){
 Stop-Process -name explorer
 
 # Uncomment the next line to make clean start menu default for all new users
-#Import-StartLayout -LayoutPath $layoutFile -MountPath $env:SystemDrive\
+Import-StartLayout -LayoutPath $layoutFile -MountPath $env:SystemDrive\
 
 Remove-Item $layoutFile
